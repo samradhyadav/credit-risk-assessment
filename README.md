@@ -1,5 +1,8 @@
 # 💳 Credit Risk Assessment using Probability, Statistics & Machine Learning  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samradhyadav/Credit-Risk-Assessment/blob/main/CreditRiskUsingProbability%26Statistics.ipynb)
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![License](https://img.shields.io/github/license/your-username/your-repo)
+
 
 Welcome to my deep dive into **Credit Risk Assessment** using real-world data!  
 This project combines **Probability & Statistics** with **Machine Learning** to predict the likelihood of loan defaults, empowering better financial decisions and risk management.
