@@ -143,10 +143,14 @@ The need to quantify creditworthiness using data-driven techniques rather than g
 
 ---
 
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
+
+---
+
 > _"Data beats emotions." — Sean Rad_
 
 ---
 
-## 📄 License
 
-This project is licensed under the terms of the [MIT License](LICENSE).
