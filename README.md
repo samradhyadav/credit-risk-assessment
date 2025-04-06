@@ -9,7 +9,7 @@ This project combines **Probability & Statistics** with **Machine Learning** to 
 
 In today's digital financial landscape, lending institutions are increasingly relying on **data-driven strategies** to evaluate the creditworthiness of borrowers. Traditional credit scoring methods, while useful, often fall short in capturing the nuanced patterns hidden in large-scale financial data.
 
-This project was born out of my idea to **leverage probability and statistics**, along with **machine learning**, to build a more robust and interpretable system for **Credit Risk Assessment**. 
+This project was born out of the idea to **leverage probability and statistics**, along with **machine learning**, to build a more robust and interpretable system for **Credit Risk Assessment**. 
 
 ---
 
@@ -19,20 +19,16 @@ This project was born out of my idea to **leverage probability and statistics**,
   Credit risk evaluation lies at the heart of banking and lending institutions. With the rise in peer-to-peer lending platforms like LendingClub, there's a massive volume of structured loan data available to analyze and improve loan decisioning systems.
 
 - 📈 **Data Science Meets Finance**:  
-  This project was a perfect opportunity for me to apply **statistical analysis**, **feature engineering**, and **modeling** techniques to a domain that affects millions—finance and lending.
+  This project was a perfect opportunity to apply **statistical analysis**, **feature engineering**, and **modeling** techniques to a domain that affects millions—finance and lending.
 
 - 🔍 **Explainability and Insight**:  
-  Unlike black-box models, I emphasized explainable patterns. Using probability distributions, bivariate plots, and box plots, I explored the **underlying reasons** behind loan defaults — not just predictions.
+  Unlike black-box models, this project emphasizes explainable patterns. Using probability distributions, bivariate plots, and box plots, I explored the **underlying reasons** behind loan defaults — not just predictions.
 
 - 🎓 **Learning Goals**:
     - Apply statistical thinking to real-world data  
     - Visualize trends that affect loan outcomes  
     - Understand which variables truly matter in predicting defaults  
     - Practice end-to-end machine learning workflow in a business-critical domain
-
----
-
-This project isn’t just about building a model — it’s about uncovering **what the data says about risk**, and translating those insights into **actionable decisions** for safer lending practices.
 
 ---
 
@@ -43,9 +39,16 @@ Predict whether a loan will default based on historical data using statistical i
 
 ---
 
+## 📊 Dataset Used
+
+📦 [Give Me Some Credit — Kaggle Competition Dataset](https://www.kaggle.com/competitions/GiveMeSomeCredit/data)  
+This dataset provides anonymized features about customers’ financial behavior, including delinquency records, revolving credit balance, and monthly income.
+
+---
+
 ## 🔍 Exploratory Data Analysis (EDA)
 
-My journey begins with data exploration and visualization:
+The journey begins with data exploration and visualization:
 
 - 📊 **Histograms & Box Plots** for key features like `interest rate`, `FICO score`, `installments`, etc.
 - 📉 **Bivariate Analysis** using scatter and violin plots to discover patterns by `loan status`
@@ -64,16 +67,42 @@ I tested and evaluated two strong classifiers:
 
 ### ✅ Key Techniques:
 - Feature selection via **Random Forest importance** and **Mutual Information**
-- Model evaluation using **ROC Curves**, **Confusion Matrix**, and **Accuracy**
+- Model evaluation using:
+  - **K-Fold Cross-Validation** (5-fold)
+  - **ROC Curves** for performance visualization
+  - **Confusion Matrix** for classification accuracy breakdown
+  - **Accuracy, Precision, Recall, and AUC** metrics
 
 ---
 
 ## 📌 Key Findings
 
-- Higher **interest rates** and **lower FICO scores** significantly correlate with **loan defaults**
-- Features like `recoveries` and `collection_recovery_fee` are heavily right-skewed and strong post-default indicators
-- `Installment` is a weak predictor for defaults
-- Mutual Information and Random Forest both confirm `int_rate`, `fico_range_low`, and `recoveries` as top features
+- **High Interest Rates = High Risk**: Borrowers with higher interest rates were more likely to default, as seen in box plots, violin plots, and confirmed by feature importance scores.  
+- **FICO Scores are Vital**: Both the low and high ranges of FICO scores showed strong separation between defaulted and non-defaulted loans. Lower FICO ranges were closely tied to increased default probability.
+- **Recoveries and Collection Fees Spike After Default**: These two features are not predictive *before* default but show sharp increases *after* default, highlighting their use in post-default risk profiling.
+- **Weak Features Detected**: Some features like `installment` didn’t provide clear separation or predictive power between default and non-default cases.
+- **Mutual Information & Random Forest Alignment**: Both selection techniques pointed to `int_rate`, `recoveries`, and `fico_range_low` as dominant predictors, reinforcing confidence in model interpretability.
+- **Loan Default is Rare but Costly**: Class imbalance in the dataset shows that while most loans do not default, those that do can cause significant financial loss, making accurate prediction critical.
+
+---
+
+## 📊 Role of Probability, Statistics & Machine Learning
+
+- 📈 **Probability & Statistics**:
+    - Helped identify the **distribution of features** using histograms, box plots, and violin plots.
+    - Detected **outliers and skewness**, crucial for preprocessing and normalization.
+    - Allowed **correlation analysis** to understand linear relationships (e.g., FICO vs Interest Rate).
+    - Informed **feature selection** by evaluating variable spread, variance, and density across categories.
+
+- 📎 **Mutual Information (Statistics)**:
+    - Measured **non-linear dependencies** between features and target variable.
+    - Helped rank features that hold the **most useful information** about the likelihood of default.
+
+- 🤖 **Machine Learning**:
+    - Enabled **pattern recognition** through supervised models like Logistic Regression and Random Forest.
+    - Offered **probability-based predictions** using Logistic Regression's sigmoid outputs.
+    - Provided **interpretability** via Random Forest feature importances.
+    - Evaluated using metrics like **AUC-ROC**, **accuracy**, and **confusion matrix** to validate performance.
 
 ---
 
@@ -90,9 +119,15 @@ I tested and evaluated two strong classifiers:
 
 | File | Description |
 |------|-------------|
-| `CreditRiskUsingProbability&Statistics.ipynb` | Full notebook with EDA, modeling, and evaluation |
+| `CreditRiskUsingProbability&Statistics` | Full notebook with EDA, modeling, and evaluation |
 | `README.md` | You're here! |
-| `dataset/file.csv` | Dataset file with a link to the data source |
+| `dataset` | Dataset with Kaggle source link |
+
+---
+
+## 🧠 Inspired By
+
+The need to quantify creditworthiness using data-driven techniques rather than gut feeling or rigid rules.
 
 ---
 
