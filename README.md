@@ -94,11 +94,14 @@ This synergy between explainable statistics and predictive modeling made the app
 
 ## 📂 Files
 
-| File | Description |
-|------|-------------|
+| File / Folder | Description |
+|---------------|-------------|
 | `CreditRiskUsingProbability&Statistics.ipynb` | Full notebook with EDA, modeling, and evaluation |
-| `README.md` | This file |
-| `dataset/file` | Dataset info and access |
+| `README.md` | Project documentation |
+| `LICENSE` | Open-source license (MIT recommended) |
+| `requirements.txt` | List of required Python packages |
+| `dataset` | Contains data and data source link |
+
 
 ---
 
@@ -141,3 +144,9 @@ The need to quantify creditworthiness using data-driven techniques rather than g
 ---
 
 > _"Data beats emotions." — Sean Rad_
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
