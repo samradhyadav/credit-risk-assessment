@@ -4,11 +4,12 @@ Welcome to my deep dive into **Credit Risk Assessment** using real-world data!
 This project combines **Probability & Statistics** with **Machine Learning** to predict the likelihood of loan defaults, empowering better financial decisions and risk management.
 
 ---
+
 ## 🎯 Project Idea & Motivation
 
 In today's digital financial landscape, lending institutions are increasingly relying on **data-driven strategies** to evaluate the creditworthiness of borrowers. Traditional credit scoring methods, while useful, often fall short in capturing the nuanced patterns hidden in large-scale financial data.
 
-This project was born out of the idea to **leverage probability and statistics**, along with **machine learning**, to build a more robust and interpretable system for **Credit Risk Assessment**. 
+This project was born out of my idea to **leverage probability and statistics**, along with **machine learning**, to build a more robust and interpretable system for **Credit Risk Assessment**. 
 
 ---
 
@@ -18,10 +19,10 @@ This project was born out of the idea to **leverage probability and statistics**
   Credit risk evaluation lies at the heart of banking and lending institutions. With the rise in peer-to-peer lending platforms like LendingClub, there's a massive volume of structured loan data available to analyze and improve loan decisioning systems.
 
 - 📈 **Data Science Meets Finance**:  
-  This project was a perfect opportunity to apply **statistical analysis**, **feature engineering**, and **modeling** techniques to a domain that affects millions—finance and lending.
+  This project was a perfect opportunity for me to apply **statistical analysis**, **feature engineering**, and **modeling** techniques to a domain that affects millions—finance and lending.
 
 - 🔍 **Explainability and Insight**:  
-  Unlike black-box models, this project emphasizes explainable patterns. Using probability distributions, bivariate plots, and box plots, we explore the **underlying reasons** behind loan defaults — not just predictions.
+  Unlike black-box models, I emphasized explainable patterns. Using probability distributions, bivariate plots, and box plots, I explored the **underlying reasons** behind loan defaults — not just predictions.
 
 - 🎓 **Learning Goals**:
     - Apply statistical thinking to real-world data  
@@ -34,6 +35,7 @@ This project was born out of the idea to **leverage probability and statistics**
 This project isn’t just about building a model — it’s about uncovering **what the data says about risk**, and translating those insights into **actionable decisions** for safer lending practices.
 
 ---
+
 ## 📁 Project Overview
 
 **Goal**:  
@@ -43,7 +45,7 @@ Predict whether a loan will default based on historical data using statistical i
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-The journey begins with data exploration and visualization:
+My journey begins with data exploration and visualization:
 
 - 📊 **Histograms & Box Plots** for key features like `interest rate`, `FICO score`, `installments`, etc.
 - 📉 **Bivariate Analysis** using scatter and violin plots to discover patterns by `loan status`
@@ -53,7 +55,7 @@ The journey begins with data exploration and visualization:
 
 ## 🧠 Modeling
 
-We tested and evaluated two strong classifiers:
+I tested and evaluated two strong classifiers:
 
 | Model               | AUC Score |
 |--------------------|-----------|
@@ -88,10 +90,9 @@ We tested and evaluated two strong classifiers:
 
 | File | Description |
 |------|-------------|
-| `CreditRiskUsingProbability&Statistics` | Full notebook with EDA, modeling, and evaluation |
+| `CreditRiskUsingProbability&Statistics.ipynb` | Full notebook with EDA, modeling, and evaluation |
 | `README.md` | You're here! |
-| `dataset` | Dataset File link attached |
-
+| `dataset/file.csv` | Dataset file with a link to the data source |
 
 ---
 
@@ -112,11 +113,10 @@ The need to quantify creditworthiness using data-driven techniques rather than g
 
 ## 📬 Connect with Me
 
-📧 [reach.samradhyadav@gmail.com]  
-💼 [LinkedIn](https://www.linkedin.com/in/samradh-singh-yadav/)
+📧 reach.samradhyadav@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/samradh-singh-yadav/)  
 📌 Star this repo if you like it!
 
 ---
 
 > _"Data beats emotions." — Sean Rad_
-
