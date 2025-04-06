@@ -96,12 +96,6 @@ I tested and evaluated two strong classifiers:
 
 ---
 
-## 🧠 Inspired By
-
-The need to quantify creditworthiness using data-driven techniques rather than gut feeling or rigid rules.
-
----
-
 ## 🚀 Future Work
 
 - Hyperparameter tuning with GridSearchCV
