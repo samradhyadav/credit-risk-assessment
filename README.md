@@ -1,7 +1,7 @@
 # 💳 Credit Risk Assessment using Probability, Statistics & Machine Learning  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samradhyadav/Credit-Risk-Assessment/blob/main/CreditRiskUsingProbability%26Statistics.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 
